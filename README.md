@@ -1,3 +1,7 @@
+## robosys2023
+
+このリポジトリは千葉工業大学先進工学部未来ロボティクス学科２０２３年度ロボットシステム学の講義にて作成したリポジトリである。
+
 ## plus
 
 ![test](https://github.com/keigo0918/robosys2023/actions/workflows/test.yml/badge.svg)
