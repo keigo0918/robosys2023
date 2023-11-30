@@ -12,11 +12,11 @@
 # ダウンロード
 
 ```
-$git clone https://github.com/keigo0918/robosys2023
+$ git clone https://github.com/keigo0918/robosys2023
 ```
 
 ```
-$cd robosysy2023
+$ cd robosysy2023
 ```
 
 # 実行例
@@ -25,7 +25,7 @@ ex1)
 入力
 
 ```
-$seq 5 | ./plus
+$ seq 5 | ./plus
 ```
 
 出力:
@@ -41,7 +41,7 @@ ex2)
 入力
 
 ```
-seq 2.3 | ./plus
+$ seq 2.3 | ./plus
 ```
 
 出力
@@ -55,9 +55,9 @@ seq 2.3 | ./plus
 
 # テスト環境
 
-pythonテスト済み: ["3.7", "3.8", "3.9", "3.10"]
+* pythonテスト済み: ["3.7", "3.8", "3.9", "3.10"]
 
-"Ubuntu 20.04"
+* Ubuntu 20.04
 
 # ライセンス
 
