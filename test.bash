@@ -5,11 +5,9 @@ ng () {
       echo NG at Line $1
       res=1
 }
-res=0
-out=$(seq 5 | ./plus)
-[ "${out}" = 15.0 ] || ng ${LINENO}       
-out=$(seq 5 | ./plus)
-[ "${out}" = 15.0 ] || ng ${LINENO}    　
+res=0      
+out=$(seq 2 | ./plus)
+[ "${out}" = 0.5 ] || ng ${LINENO}    　
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}    　
