@@ -1,6 +1,6 @@
-# "plus"
+## plus
 
-「plus」はPython上での四則演算を自動で行うのチュートリアルです。
+「plus」はPython上での四則演算を自動で行うチュートリアルです。
 
 # 概要
 
@@ -11,25 +11,46 @@
 
 # ダウンロード
 
-git clone https://github.com/keigo0918/robosys2023
+```
+$git clone https://github.com/keigo0918/robosys2023
+```
+```
+$cd robosysy2023
+```
 
 # 実行例
 
 ex1)
-入力: seq 5 | ./plus
+入力
 
-出力: 15.0
-      -15.0
-      120.0
-      0.008333333333333333
+```
+$seq 5 | ./plus
+```
+
+出力:
+
+```
+15.0
+-15.0
+120.0
+0.008333333333333333
+```
 
 ex2)
-入力: seq 2.3 | ./plus
+入力
 
-出力: 3.0
-      -3.0
-      2.0
-      0.5
+```
+seq 2.3 | ./plus
+```
+
+出力
+
+```
+3.0
+-3.0
+2.0
+0.5
+```
 
 # テスト環境
 
@@ -41,5 +62,5 @@ pythonテスト済み: ["3.7", "3.8", "3.9", "3.10"]
 
 * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-[ryuichiueda/my_slides_robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
+      * [ryuichiueda/my_slides_robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
 © 2023 Keigo Shishido  
