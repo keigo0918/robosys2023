@@ -57,7 +57,7 @@ $ seq 2.3 | ./plus
 
 # テスト環境
 
-*Python
+* Python
   * テスト済み: 3.7〜3.10
 
 * Ubuntu 20.04
