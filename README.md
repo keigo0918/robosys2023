@@ -11,7 +11,7 @@
 
 # ダウンロード
 
-git@github.com:keigo0918/robosys2023.git
+git clone https://github.com/keigo0918/robosys2023
 
 # 実行例
 
