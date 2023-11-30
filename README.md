@@ -1,42 +1,39 @@
 # "plus"
 
-"plus" is a tutorial on addition in Python.
+「plus」はPython上での足し算のチュートリアルです。
 
 # Summary
 
-Calculates the sum from 0 to the input integer.
+0 から入力整数までの合計を計算します。
 
-Only positive integers can be assigned as input values. 
-If the input value is not an integer, the decimal point is rounded down.
+入力値として割り当てることができるのは、正の整数のみです。 
+入力値が整数でない場合、小数点は切り捨てられます。
+
+# ダウンロード
+
+git@github.com:keigo0918/robosys2023.git
 
 # Execution example
 
 ex1)
-Input:  seq 5 | ./plus
+入力: seq 5 | ./plus
 
-Output: 15.0
+出力: 15.0
 
 ex2)
-Input:  seq 2.3 | ./plus
+入力: seq 2.3 | ./plus
 
-Output: 3.0
+出力: 3.0
 
-# Development Environment
+# テスト環境
+
+pythonテスト済み: ["3.7", "3.8", "3.9", "3.10"]
 
 "Ubuntu 20.04"
- 
-# Requirement
-
-python-version: ["3.7", "3.8", "3.9", "3.10"]
-
-Ubuntu
-
-# Author
-
-Shishido Keigo
 
 # Lisence
 
-BSD-3-Clause
-
-Thank you for reading! 
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+[ryuichiueda/my_slides_robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
+© 2023 Keigo Shishido  
