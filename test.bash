@@ -6,15 +6,15 @@ ng () {
       res=1
 }
 res=0      
-out=$(seq 2 | ./plus)
+out=$(seq 2 | ./sisoku)
 [ "${out}" = "3.0
 -3.0
 2.0
 0.5" ] || ng ${LINENO}    　
-out=$(echo あ | ./plus)
+out=$(echo あ | ./sisoku)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}    　
-out=$(echo | ./plus) 
+out=$(echo | ./sisoku) 
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 [ "$res" = 0 ] && echo OK
