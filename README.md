@@ -6,7 +6,7 @@
 
 ![test](https://github.com/keigo0918/robosys2023/actions/workflows/test.yml/badge.svg)
 
-「plus」はPython上での四則演算を自動で行うプログラムです。
+「plus」はPython上での四則演算を行うプログラムです。
 
 ## 概要
 
