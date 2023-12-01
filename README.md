@@ -2,11 +2,11 @@
 
 このリポジトリは千葉工業大学先進工学部未来ロボティクス学科2023年度ロボットシステム学の講義にて作成したリポジトリです。
 
-# plus
+# sisoku
 
 ![test](https://github.com/keigo0918/robosys2023/actions/workflows/test.yml/badge.svg)
 
-「plus」はPython上での四則演算を行うプログラムです。
+「sisoku」はPython上での四則演算を行うプログラムです。
 
 ## 概要
 
